@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 # Step 1: Create a dictionary, convert it to a pandas dataframe
 def create_dataframe():
     data = {
-        "id": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "id": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
         "review": [
             "Great food and ambiance.",
             "Terrible service.",
@@ -16,7 +16,8 @@ def create_dataframe():
             "Excellent customer service.",
             "The place was too crowded.",
             "Best restaurant in town.",
-            "Average experience."
+            "Average experience.",
+            "New Customer Review."
         ]
     }
     df = pd.DataFrame(data)
